@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبة زجاجية ثلاثية الأبعاد</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display-container">
+            <input type="text" id="display" disabled placeholder="0">
+        </div>
+        <div class="buttons">
+            <button class="btn action" data-action="clear">C</button>
+            <button class="btn action" data-action="delete"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="btn operator" data-value="/"><i class="fa-solid fa-divide"></i></button>
+            <button class="btn operator" data-value="*"><i class="fa-solid fa-xmark"></i></button>
+            
+            <button class="btn number" data-value="7"><i class="fa-solid fa-7"></i></button>
+            <button class="btn number" data-value="8"><i class="fa-solid fa-8"></i></button>
+            <button class="btn number" data-value="9"><i class="fa-solid fa-9"></i></button>
+            <button class="btn operator" data-value="-"><i class="fa-solid fa-minus"></i></button>
+            
+            <button class="btn number" data-value="4"><i class="fa-solid fa-4"></i></button>
+            <button class="btn number" data-value="5"><i class="fa-solid fa-5"></i></button>
+            <button class="btn number" data-value="6"><i class="fa-solid fa-6"></i></button>
+            <button class="btn operator" data-value="+"><i class="fa-solid fa-plus"></i></button>
+            
+            <button class="btn number" data-value="1"><i class="fa-solid fa-1"></i></button>
+            <button class="btn number" data-value="2"><i class="fa-solid fa-2"></i></button>
+            <button class="btn number" data-value="3"><i class="fa-solid fa-3"></i></button>
+            <button class="btn equal" data-action="calculate"><i class="fa-solid fa-equals"></i></button>
+            
+            <button class="btn number zero" data-value="0"><i class="fa-solid fa-0"></i></button>
+            <button class="btn number" data-value="."><i class="fa-solid fa-circle-dot"></i></button>
+        </div>
+    </div>
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
